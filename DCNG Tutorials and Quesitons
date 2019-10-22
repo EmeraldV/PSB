@@ -1,0 +1,15 @@
+ TUTORIAL 4
+DATA LINK CONTROL
+1. What is the purpose of flow control? State two flow control techniques.
+2. Consider a data communication link that uses a sliding window flow control with a
+window size of 5 and a 3-bit sequence number (0-7). Draw the sliding window when the
+sending station transmitted 5 frames (0, 1, 2, 3, 4), with acknowledgements for frames 0
+and 1 received but error occurring in the acknowledgment of frame 2.
+3. Consider a data communication link with 8 frames to send that uses a stop-and-wait
+ARQ for error control. Draw the scenario where the sending station transmits 3 frames
+(0, 1, 2), with the receiving end receiving a corrupted frame 0 and the acknowledgment
+of frame 2 lost.
+4. Consider the above scenario in Question 3 given that the Go-Back-N is used instead.
+Assume a window size of 3.
+5. Consider the above scenario in Question 3 given that the selective-reject ARQ is used
+instead. Assume window size of 3.
